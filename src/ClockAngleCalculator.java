@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class ClockAngleCalculator {
 
     public static void main(String[] args) {
-        final int MINUTE_HAND_ANGLE = 6;
-        final int HOUR_HAND_ANGLE = 30;
-        final float HOUR_HAND_PER_MINUTE_ANGLE = 0.5f;
+        final int MINUTE_HAND_ANGLE = 6;    //angle change per minute (360/60mins)
+        final int HOUR_HAND_ANGLE = 30;     //angle change per hour  (360/12hrs)
+        final float HOUR_HAND_PER_MINUTE_ANGLE = 0.5f; //angle change per unit of hour hand (30/60mins)
         final int CIRCLE_ANGLE = 360;
         Scanner kbd = new Scanner(System.in);
         int hour = 0;
